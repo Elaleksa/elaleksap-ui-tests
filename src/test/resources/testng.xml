@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HomePageSuite">
+    <test name="HomePageTests">
+        <classes>
+            <class name="web.Tests.HomePageTest">
+                <methods>
+                    <include name="checkAllElementsAreVisible"/>
+                    <include name="checkLinkedInLinkOpens"/>
+                    <include name="checkGitHubLinkOpens"/>
+                    <include name="checkContactFormOpens"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
